@@ -1,7 +1,9 @@
 # How to work with BRFSS data - Applying weights
 
 I was working with CDC's BRFSS dataset and found their instructions on how to apply weights to be confusing. I also couldn't find any up-to-date python examples, so I decided to create an example
-jupyter notebook in case someone might find it useful. You can execute the notebook in [colab](https://colab.research.google.com/), [jupyter lab or jupyter notebook](https://jupyter.org/install), or github's [codespaces](https://github.com/features/codespaces). 
+jupyter notebook in case someone might find it useful. You can execute the notebook in [colab](https://colab.research.google.com/), [jupyter lab or jupyter notebook](https://jupyter.org/install), or github's [codespaces](https://github.com/features/codespaces). You might also be able to do it VSCode with the proper extensions downloaded. Just open the [notebook](https://github.com/kramduckner/apply-weights-with-brfss-example/blob/main/Applying%20BRFSS%20Weights%20Example.ipynb) in one of those tools and start executing the cells.
+
+## What does this notebook do
 This notebook shows how to map the numerical AGEG5YR_ field to its string value, and apply the LLCPWT weight to it to get a more accurate value.
 
 ## What is BRFSS
