@@ -9,6 +9,6 @@ The CDC's Behavioral Risk Factor Surveillance System (BRFSS) is the largest ongo
 and the use of preventive services among U.S. residents.
 
 ## Obtaining the Data
-I've included a csv file of the first [100 rows of 2023 brfss data](), but you can also go to [CDC's website](https://www.cdc.gov/brfss/annual_data/annual_2023.html) to download the entire dataset.
+I've included a csv file of the first [100 rows of 2023 brfss data](https://github.com/kramduckner/apply-weights-with-brfss-example/blob/main/first_100_rows_brfss_2023.csv), but you can also go to [CDC's website](https://www.cdc.gov/brfss/annual_data/annual_2023.html) to download the entire dataset.
 They only have it available in XPT or ASCII formats, so this notebook also converts the XPT file to csv so Pandas can convert it to a dataframe.
 
